@@ -16,6 +16,10 @@ const rallyInitiatorHeroes: Hero[] = [
     name: "Petra",
     avatar: hero.petra,
   },
+  {
+    name: "Marlin",
+    avatar: hero.marlin,
+  },
 ];
 
 const rallyJoiners: Hero[] = [
