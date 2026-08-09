@@ -15,7 +15,7 @@ const props = defineProps<{
         >
             <div class="flex flex-col gap-2">
                 <div
-                    class="size-28 flex flex-col items-center justify-center rounded-2xl"
+                    class="size-22 md:size-28 flex flex-col items-center justify-center rounded-2xl"
                 >
                     <img
                         :src="rallyHero.avatar"
@@ -29,10 +29,10 @@ const props = defineProps<{
             </div>
             <div class="flex flex-col gap-2">
                 <div
-                    class="size-28 flex flex-col items-center justify-center rounded-2xl"
+                    class="size-22 md:size-28 flex flex-col items-center justify-center rounded-2xl"
                 >
                     <div
-                        class="size-22 border b-2 border-primary bg-primary/30 flex flex-col items-center justify-center rounded-2xl"
+                        class="size-18 md:size-22 border b-2 border-primary bg-primary/30 flex flex-col items-center justify-center rounded-2xl"
                     >
                         {{ suggestHero ?? "Any" }}
                     </div>
@@ -40,10 +40,10 @@ const props = defineProps<{
             </div>
             <div class="flex flex-col gap-2">
                 <div
-                    class="size-28 flex flex-col items-center justify-center rounded-2xl"
+                    class="size-22 md:size-28 flex flex-col items-center justify-center rounded-2xl"
                 >
                     <div
-                        class="size-22 border b-2 border-primary bg-primary/30 flex flex-col items-center justify-center rounded-2xl"
+                        class="size-18 md:size-22 border b-2 border-primary bg-primary/30 flex flex-col items-center justify-center rounded-2xl"
                     >
                         {{ suggestHero ?? "Any" }}
                     </div>
