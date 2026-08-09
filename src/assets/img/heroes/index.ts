@@ -5,4 +5,4 @@ export { default as hilde } from "./hilde.webp";
 export { default as jabel } from "./jabel.webp";
 export { default as marlin } from "./marlin.webp";
 export { default as petra } from "./petra.webp";
-export { default as yeonwoo } from "./yeonwoo.png";
+export { default as yeonwoo } from "./yeonwoo.webp";
