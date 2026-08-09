@@ -1,3 +1,4 @@
+import * as hero from "@/assets/img/heroes";
 type Hero = {
   name: string;
   avatar: string;
@@ -5,46 +6,38 @@ type Hero = {
 const rallyInitiatorHeroes: Hero[] = [
   {
     name: "Jabel",
-    avatar:
-      "https://www.kingshotguide.com/_next/image?url=%2Fheroes%2Fjabel.webp&w=1920&q=75",
+    avatar: hero.jabel,
   },
   {
     name: "Amadeus",
-    avatar:
-      "https://www.kingshotguide.com/_next/image?url=%2Fheroes%2Famadeus.webp&w=1920&q=75",
+    avatar: hero.amadeus,
   },
   {
     name: "Petra",
-    avatar:
-      "https://www.kingshotguide.com/_next/image?url=%2Fheroes%2Fpetra-avatar-icon.webp&w=1920&q=75",
+    avatar: hero.petra,
   },
 ];
 
 const rallyJoiners: Hero[] = [
   {
     name: "Chenko",
-    avatar:
-      "https://www.kingshotguide.com/_next/image?url=%2Fheroes%2Fchenko-avatar.webp&w=1920&q=75",
+    avatar: hero.chenko,
   },
   {
     name: "Amadeus",
-    avatar:
-      "https://www.kingshotguide.com/_next/image?url=%2Fheroes%2Famadeus.webp&w=1920&q=75",
+    avatar: hero.amadeus,
   },
   {
     name: "Yeonwoo",
-    avatar:
-      "https://www.kingshotguide.com/_next/image?url=%2Fheroes%2Fyeonwoo-avatar.webp&w=1920&q=75",
+    avatar: hero.yeonwoo,
   },
   {
     name: "Amane",
-    avatar:
-      "https://www.kingshotguide.com/_next/image?url=%2Fheroes%2Famane-avatar.webp&w=1920&q=75",
+    avatar: hero.amane,
   },
   {
     name: "Hilde",
-    avatar:
-      "https://www.kingshotguide.com/_next/image?url=%2Fheroes%2Fhilde-kingshot.webp&w=1920&q=75",
+    avatar: hero.hilde,
   },
 ];
 
