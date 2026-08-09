@@ -71,6 +71,9 @@ import { rallyInitiatorHeroes, rallyJoiners } from "./data/hero-rally";
                         </Card>
                     </TabsContent>
                     <TabsContent value="vikings">Coming Soon!</TabsContent>
+                    <TabsContent value="castle-battle">
+                        Coming Soon!
+                    </TabsContent>
                 </Tabs>
             </div>
         </Container>
