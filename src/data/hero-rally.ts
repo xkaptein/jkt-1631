@@ -1,9 +1,9 @@
 import * as hero from "@/assets/img/heroes";
-type Hero = {
+export type Hero = {
   name: string;
   avatar: string;
 };
-const rallyInitiatorHeroes: Hero[] = [
+export const rallyInitiatorHeroes: Hero[] = [
   {
     name: "Jabel",
     avatar: hero.jabel,
@@ -22,7 +22,7 @@ const rallyInitiatorHeroes: Hero[] = [
   },
 ];
 
-const rallyJoiners: Hero[] = [
+export const rallyJoiners: Hero[] = [
   {
     name: "Chenko",
     avatar: hero.chenko,
@@ -45,4 +45,26 @@ const rallyJoiners: Hero[] = [
   },
 ];
 
-export { rallyInitiatorHeroes, rallyJoiners };
+export const rallyAttackInitiatorGarrison: Hero[] = [
+  { name: "Petra", avatar: hero.petra },
+  { name: "Amadeus", avatar: hero.amadeus },
+  { name: "Marlin", avatar: hero.marlin },
+  { name: "Jabel", avatar: hero.jabel },
+];
+export const rallyAttackJoinerGarrison: Hero[] = [
+  { name: "Amadeus", avatar: hero.amadeus },
+  { name: "Chenko", avatar: hero.chenko },
+];
+export const defenseGarrisonLead: Hero[] = [
+  { name: "Eric", avatar: hero.eric },
+  { name: "Hilde", avatar: hero.hilde },
+  { name: "Amadues", avatar: hero.amadeus },
+  { name: "Howard", avatar: hero.howard },
+  { name: "Zoe", avatar: hero.zoe },
+  { name: "Jabel", avatar: hero.jabel },
+];
+export const defenseJoiner: Hero[] = [
+  { name: "Hilde", avatar: hero.hilde },
+  { name: "Saul", avatar: hero.saul },
+  { name: "Gordon", avatar: hero.gordon },
+];

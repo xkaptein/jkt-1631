@@ -1,8 +1,14 @@
 export { default as amadeus } from "./amadeus.webp";
 export { default as amane } from "./amane.webp";
 export { default as chenko } from "./chenko.webp";
+export { default as eric } from "./eric.webp";
+export { default as gordon } from "./gordon.webp";
 export { default as hilde } from "./hilde.webp";
+export { default as howard } from "./howard.webp";
 export { default as jabel } from "./jabel.webp";
+export { default as jaegar } from "./jaegar.webp";
 export { default as marlin } from "./marlin.webp";
 export { default as petra } from "./petra.webp";
+export { default as saul } from "./saul.webp";
 export { default as yeonwoo } from "./yeonwoo.webp";
+export { default as zoe } from "./zoe.webp";
