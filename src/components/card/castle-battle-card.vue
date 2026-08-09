@@ -24,6 +24,7 @@ import { Separator } from "../ui/separator";
       <CardHeader>
         <CardTitle>Attack</CardTitle>
       </CardHeader>
+      <Separator />
       <CardContent>
         <Accordion collapsible type="single" defaultValue="leader">
           <AccordionItem value="leader">
@@ -56,6 +57,7 @@ import { Separator } from "../ui/separator";
       <CardHeader>
         <CardTitle>Defense/Garrison</CardTitle>
       </CardHeader>
+      <Separator />
       <CardContent>
         <Accordion collapsible type="single" defaultValue="leader">
           <AccordionItem value="leader">
